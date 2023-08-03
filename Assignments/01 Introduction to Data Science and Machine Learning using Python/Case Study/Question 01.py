@@ -10,7 +10,7 @@ def odd_even_factors(number):
         number (int): Number for which factors needs to be found out
     
     Returns:
-        Factors categorized as even, odd in dict
+        dict: Factors categorized as even, odd
     """
 
     factors = dict(odd=[], even=[])
